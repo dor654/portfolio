@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-YWznzLEWJzPJeaSxwugcO/AlvxEMxCqjPUDOJJvOkfCWfwRwTyCXJCQ/*/fkcIKgYQxPmqzsb8FAjGLyvzFugaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+
+  <body class="min-h-screen bg-[url('/assets/instruments.jpg')] bg-center bg-cover">
+    <nav
+      class="flex text-xl items-center justify-center bg-gradient-to-r from-orange-200 via-amber-100 "
+    >
+      <a href="/components/About.html">
+        <img
+          src="/assets/Music.png"
+          alt="logo"
+          class="w-32 h-32 cursor-pointer mr-5 opacity-70 hover:opacity-100"
+        />
+      </a>
+
+      <ul class="flex-1 text-center font-serif">
+        <li class="list-none inline-block px-5">
+          <a href="/portfolio.html" class="px-2 hover:text-blue-800">Home</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="contactpage.html" class="px-2 hover:text-blue-800"
+            >Contact</a
+          >
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="/components/About.html" class="px-2 hover:text-blue-800"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main class="container mx-auto py-16">
+      
+      <div class="flex justify-center mb-8">
+        <button
+          class="bg-amber-300 hover:bg-amber-500 text-gray-700 font-medium px-4 py-2 rounded-md mr-2"
+        >
+          Guitars
+        </button>
+        <button
+          class="bg-amber-300 hover:bg-amber-500 text-gray-700 font-medium px-4 py-2 rounded-md mr-2"
+        >
+          Bass Guitars
+        </button>
+        <button
+          class="bg-amber-300 hover:bg-amber-500 text-gray-700 font-medium px-4 py-2 rounded-md mr-2"
+        >
+          Keyboards
+        </button>
+        <button
+          class="bg-amber-300 hover:bg-amber-500 text-gray-700 font-medium px-4 py-2 rounded-md"
+        >
+          Drums
+        </button>
+      </div>
+
+      <section class="featured-instrument mb-12">
+        <img
+          src="/assets/featured.jpg"
+          alt="Featured Instrument Image"
+          class="will-change-auto h-auto rounded-lg shadow-md"
+        />
+        <div class="px-4 py-4 bg-white rounded-lg shadow-md mt-4 hover:bg-slate-200">
+          <h3 class="text-xl font-bold mb-2">Fender Stratocaster</h3>
+          <p class="text-gray-700 mb-4">
+            The iconic electric guitar, known for its versatile sound and smooth
+            playability.
+          </p>
+          <a
+            href="#"
+            class="bg-amber-500 text-white px-4 py-2 rounded-md hover:bg-amber-700"
+          >
+            Learn More
+          </a>
+        </div>
+      </section>
+
+      <section class="instrument-list grid grid-cols-1 md:grid-cols-3 gap-8 ">
+        <div class="instrument-item">
+          <img
+            src="/assets/guitar.jpg"
+            alt="Instrument 1"
+            class="w-full h-96 rounded-lg"
+          />
+          <div class="px-4 py-2 bg-white rounded-lg shadow-md mt-4 hover:bg-slate-200">
+            <h4 class="text-lg font-medium mb-1">Acoustic Guitar</h4>
+            <p class="text-gray-700">Starting at $299</p>
+          </div>
+        </div>
+        <div class="instrument-item">
+          <img
+            src="/assets/bass.jpg"
+            alt="Instrument 2"
+            class="w-full h-96 rounded-lg"
+          />
+          <div class="px-4 py-2 bg-white rounded-lg shadow-md mt-4 hover:bg-slate-200">
+            <h4 class="text-lg font-medium mb-1">Electric Bass</h4>
+            <p class="text-gray-700">Starting at $499</p>
+          </div>
+        </div>
+               <div class="instrument-item">
+          <img
+            src="/assets/electric.jpg"
+            alt="Instrument 2"
+            class="w-full h-96 rounded-lg"
+          />
+          <div class="px-4 py-2 bg-white rounded-lg shadow-md mt-4 hover:bg-slate-200">
+            <h4 class="text-lg font-medium mb-1">Electric Bass</h4>
+            <p class="text-gray-700">Starting at $499</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="text-center mt-8">
+        <a
+          href="#"
+          class="bg-amber-500 text-white px-4 py-2 rounded-md hover:bg-amber-700"
+        >
+          View All Instruments
+        </a>
+      </div>
+    </main>
+  </body>
+</html>

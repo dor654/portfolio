@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-YWznzLEWJzPJeaSxwugcO/AlvxEMxCqjPUDOJJvOkfCWfwRwTyCXJCQ/*/fkcIKgYQxPmqzsb8FAjGLyvzFugaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body class="min-h-screen bg-[url('/assets/record.jpg')] bg-center bg-cover">
+    <nav
+      class="flex text-xl items-center justify-center bg-gradient-to-r from-slate-200 via-slate-500"
+    >
+      <a href="/components/About.html">
+        <img
+          src="/assets/Music.png"
+          alt="logo"
+          class="w-32 h-32 cursor-pointer mr-5 opacity-70 hover:opacity-100"
+        />
+      </a>
+
+      <ul class="flex-1 text-center font-serif">
+        <li class="list-none inline-block px-5">
+          <a href="/portfolio.html" class="px-2 hover:text-blue-800">Home</a>
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="contactpage.html" class="px-2 hover:text-blue-800"
+            >Contact</a
+          >
+        </li>
+        <li class="list-none inline-block px-5">
+          <a href="/components/About.html" class="px-2 hover:text-blue-800"
+            >About</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="container mx-auto py-16 bg-cover">
+      <h2 class="text-4xl font-bold text-center mb-8">About Music Mania</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div
+          class="prose md:col-span-2 text-xl bg-slate-200 bg-opacity-45 rounded-lg px-12 py-4 text-black leading-loose"
+        >
+          <p class="leading-loose">
+            Here at Music Mania, we're passionate about music and helping people
+            of all skill levels find their voice. We've been serving the
+            community since 2004 and pride ourselves on offering a wide
+            selection of high-quality instruments, gear, and services.
+          </p>
+          <p>
+            Our knowledgeable staff is here to assist you, whether you're a
+            seasoned musician looking for the perfect upgrade or a beginner just
+            starting out. We offer lessons for a variety of instruments and host
+            workshops to help you develop your skills.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col items-center justify-center md:col-span-2 bg-slate-200 bg-opacity-45 rounded-lg"
+        >
+          <p class="text-center text-xl font-semibold">Our Mission:</p>
+          <p class="text-center">
+            To inspire and empower everyone to explore the joy of music.
+          </p>
+        </div>
+      </div>
+
+      <h3
+        class="text-3xl font-bold text-center my-8 bg-slate-400 bg-opacity-40 rounded-lg leading-loose"
+      >
+        What Our Customers Say
+      </h3>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div
+          class="bg-blue-200 bg-opacity-60 rounded-lg shadow-md px-8 py-6 hover:bg-slate-400 transition duration-300 ease-in-out"
+        >
+          <img
+            class="w-28 h-28 rounded-full mx-auto mb-4 my-5"
+            src="/assets/oldie.jpg"
+            alt="Customer Avatar"
+          />
+          <p class="text-lg font-light text-center">
+            "Music Mania has everything I need to keep my musical journey going.
+            The staff is always friendly and helpful, and they go the extra mile
+            to make sure I'm satisfied."
+          </p>
+          <p class="text-gray-600 text-center font-semibold">
+            - Harold Smith, Musician
+          </p>
+        </div>
+
+        <div
+          class="bg-blue-300 bg-opacity-60 rounded-lg shadow-md px-8 py-6 hover:bg-slate-400 transition duration-300 ease-in-out"
+        >
+          <img
+            class="w-28 h-28 rounded-full mx-auto mb-4 my-5"
+            src="/assets/kiddo.jpg"
+            alt="Customer Avatar"
+          />
+          <p class="text-lg font-light text-center">
+            "I recently took guitar lessons at Music Mania and had a fantastic
+            experience. My teacher was patient and encouraging, and I learned so
+            much in a short amount of time."
+          </p>
+          <p class="text-gray-600 text-center font-semibold">
+            - David Lee, Student
+          </p>
+        </div>
+
+        <div
+          class="bg-blue-200 bg-opacity-60 rounded-lg shadow-md px-8 py-6 hover:bg-slate-400 transition duration-300 ease-in-out"
+        >
+          <img
+            class="w-28 h-28 rounded-full mx-auto mb-4 my-5"
+            src="/assets/producer.jpg"
+            alt="Customer Avatar"
+          />
+          <p class="text-lg font-light text-center">
+            "I found the perfect keyboard for my needs at Music Mania. The
+            selection was amazing, and the prices were competitive. I'll
+            definitely be back for all my future music gear purchases."
+          </p>
+
+          <p class="text-gray-600 text-center font-semibold">
+            - Michael Chen, Producer
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="text-center py-8 bg-gradient-to-r from-slate-200 via-slate-500"
+    >
+      <ul class="flex justify-center space-x-4 text-xl">
+        <li>
+          <i class="fab fa-facebook text-gray-900 hover:text-amber-500"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter text-gray-900 hover:text-amber-500"></i>
+        </li>
+        <li>
+          <i class="fab fa-instagram text-gray-900 hover:text-amber-500"></i>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
